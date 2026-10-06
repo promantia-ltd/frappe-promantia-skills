@@ -8,6 +8,10 @@ A collection of agent skills for building [Frappe Framework](https://frappeframe
 | ----- | -------------- |
 | `frappe-app-dev` | Full-stack Frappe: DocTypes, controllers, APIs, database/ORM, hooks, permissions, jobs, realtime, caching, testing, app setup, frontend (Desk/Vue/portal), and the bench CLI + site management |
 | `frappe-code-review` | Review checklist for Frappe applications: correctness, security, performance, concurrency, readability, API design, and testing |
+| `promantia-frappe-code-review` | Review Frappe/ERPNext code against the team's Python, JavaScript and customization standards. Loads the three standards skills below, then reports findings by severity |
+| `python-frappe-standards` | Python rules for controllers, DocEvent overrides and whitelisted APIs: section order, lifecycle order, helpers, translations, SQL, tabs |
+| `javascript-frappe-standards` | JavaScript rules for client scripts: event order, `frm.events` helpers, translations, `set_query` in `setup`, no deprecated APIs |
+| `erpnext-customization-guide` | Rules for customizing ERPNext: config-driven overrides, `hooks.py` hygiene, fixtures, no hardcoded client values |
 | `code-style` | General code style rules |
 | `technical-writing` | Write documentation, READMEs, commits, pull requests, and release notes in Simplified Technical English |
 | `ui-design` | General UI/UX design principles |
